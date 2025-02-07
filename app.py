@@ -1,4 +1,4 @@
-import chardet
+import charset_normalizer
 from dotenv import load_dotenv
 from openai import OpenAI
 import streamlit as st
