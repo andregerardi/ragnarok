@@ -1,6 +1,6 @@
 charset_normalizer==3.4.1
 openai==1.61.1
 pandas==2.2.3
-python-dotenv==1.0.1
+python-dotenv
 streamlit==1.42.0
 os
