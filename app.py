@@ -1,4 +1,5 @@
 import charset_normalizer
+import dotenv
 from dotenv import load_dotenv
 from openai import OpenAI
 import streamlit as st
