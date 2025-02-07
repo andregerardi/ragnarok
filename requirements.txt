@@ -1,4 +1,4 @@
-chardet==5.2.0
+charset_normalizer==3.4.1
 openai==1.61.1
 pandas==2.2.3
 python-dotenv==1.0.1
