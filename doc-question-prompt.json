@@ -1,0 +1,444 @@
+{
+	"boletim de ocorrencia": [
+		{
+			"label": "Tipificação do crime",
+			"question": "Qual foi a tipificação do crime no boletim de ocorrência?",
+			"prompt": "Qual foi a tipificação do crime no boletim de ocorrência? Ou seja, me diga o artigo de lei em que o crime foi enquadrado."
+		},
+		{
+			"label": "Data e horário do crime",
+			"question": "Qual é a data e o horário do crime informados no boletim de ocorrência?",
+			"prompt": "Qual é a data e o horário do crime informados no boletim de ocorrência? O formato deve ser o seguinte: 00/00/0000 às 00:00"
+		},
+		{
+			"label": "Local exato do crime",
+			"question": "Qual o local exato do crime (bairro ou região) informado no boletim?",
+			"prompt": "Qual o local exato do crime (bairro ou região) informado no boletim? Você deve responder o Endereço completo: nome da rua, número, bairro, cep, região da cidade"
+		},
+		{
+			"label": "Tipo de local do crime",
+			"question": "O crime ocorreu em via pública, espaço residencial ou comercial?",
+			"prompt": "O crime ocorreu em via pública, espaço residencial ou comercial? Responda A: Via Pública, B: Residência, C: Comercial"
+		},
+		{
+			"label": "Número de policiais envolvidos",
+			"question": "Quantos policiais estiveram envolvidos na ocorrência?",
+			"prompt": "Quantos policiais estiveram envolvidos na ocorrência? Me responda como número."
+		},
+		{
+			"label": "Número de vítimas",
+			"question": "Quantas vítimas estiveram envolvidos na ocorrência?",
+			"prompt": "Quantas vítimas estiveram envolvidos na ocorrência? Me responda como número."
+		},
+		{
+			"label": "Situação dos policiais",
+			"question": "Os policiais envolvidos estavam em serviço ou de folga?",
+			"prompt": "Os policiais envolvidos estavam em serviço ou de folga? Responda A: Em serviço, B: Em folga"
+		},
+		{
+			"label": "Motivação da abordagem",
+			"question": "Qual foi a motivação informada para a abordagem ou intervenção policial?",
+			"prompt": "Qual foi a motivação informada para a abordagem ou intervenção policial? Responda A: Atitude suspeita, B: Prática de crime, C: Revista aleatória, D: Denúncia anônima, E: Outra"
+		},
+		{
+			"label": "Classificação da pessoa morta",
+			"question": "A pessoa morta foi classificada como vítima ou como autor do crime?",
+			"prompt": "A pessoa morta foi classificada como vítima ou como autor do crime? Responda A: Vítima, B: Autor de crime"
+		},
+		{
+			"label": "Raça/cor da pele dos policiais",
+			"question": "Qual a raça/cor da pele dos policiais envolvidos na ocorrência?",
+			"prompt": "Qual a raça/cor da pele dos policiais envolvidos na ocorrência? Responda A: Branca, B: Parda, C: Preta, D: Amarela, E: Indígena, F: Ignorada"
+		},
+		{
+			"label": "Raça/cor da pele da vítima",
+			"question": "Qual a raça/cor da pele da vítima mencionada no boletim de ocorrência?",
+			"prompt": "Qual a raça/cor da pele da vítima mencionada no boletim de ocorrência? Responda A: Branca, B: Parda, C: Preta, D: Amarela, E: Indígena, F: Ignorada"
+		},
+		{
+			"label": "Vítima acusada de crime",
+			"question": "A vítima foi acusada de algum crime antes ou durante a ocorrência?",
+			"prompt": "A vítima foi acusada de algum crime antes ou durante a ocorrência? Responda apenas A: Sim ou B: Não"
+		},
+		{
+			"label": "Local do crime preservado para perícia",
+			"question": "O local do crime foi preservado pela polícia para perícia?",
+			"prompt": "O local do crime foi preservado pela polícia para perícia? Responda apenas A: Sim ou B: Não"
+		},
+		{
+			"label": "Apreensão de arma com a vítima",
+			"question": "Houve apreensão de arma de fogo com a vítima?",
+			"prompt": "Houve apreensão de arma de fogo com a vítima? Responda apenas A: Sim ou B: Não"
+		},
+		{
+			"label": "Arma periciada",
+			"question": "A arma foi mencionada como periciada?",
+			"prompt": "A arma foi mencionada como periciada? Responda apenas A: Sim ou B: Não"
+		},
+		{
+			"label": "Quantidade de tiros disparados",
+			"question": "Quantos tiros foram disparados contra a vítima conforme o boletim?",
+			"prompt": "Quantos tiros foram disparados contra a vítima conforme o boletim? Me responda como número."
+		},
+		{
+			"label": "Vítima recebeu socorro",
+			"question": "A vítima recebeu socorro após a ocorrência?",
+			"prompt": "A vítima recebeu socorro após a ocorrência? Responda apenas A: Sim ou B: Não"
+		},
+		{
+			"label": "Profissão da vítima",
+			"question": "Qual a profissão da vítima informada no boletim?",
+			"prompt": "Qual a profissão da vítima informada no boletim? Me diga apenas uma profissão"
+		},
+		{
+			"label": "Vítima atirou primeiro",
+			"question": "O boletim indica que a vítima atirou primeiro?",
+			"prompt": "O boletim indica que a vítima atirou primeiro? Responda apenas A: Sim ou B: Não"
+		},
+		{
+			"label": "Câmeras de segurança no local",
+			"question": "Há menção de câmeras de segurança no local do crime?",
+			"prompt": "Há menção de câmeras de segurança no local do crime? Responda apenas A: Sim ou B: Não"
+		},
+		{
+			"label": "Testemunhas no local do crime",
+			"question": "Há menção de testemunhas no local do crime?",
+			"prompt": "Há menção de testemunhas no local do crime? Responda apenas A: Sim ou B: Não"
+		},
+		{
+			"label": "Histórico de ocorrências no local",
+			"question": "O local possui histórico de outras ocorrências policiais?",
+			"prompt": "O local possui histórico de outras ocorrências policiais? Responda apenas A: Sim ou B: Não"
+		},
+		{
+			"label": "Policiais indiciados",
+			"question": "Os policiais envolvidos foram indiciados pelo ocorrido?",
+			"prompt": "Os policiais envolvidos foram indiciados pelo ocorrido? Responda apenas A: Sim ou B: Não"
+		}
+	],
+	"inquerito policial": [
+		{
+			"label": "Tipificação do crime",
+			"question": "Qual foi a tipificação do crime no boletim de ocorrência?",
+			"prompt": "Qual foi a tipificação do crime no boletim de ocorrência? Ou seja, me diga o artigo de lei em que o crime foi enquadrado."
+		},
+		{
+			"label": "Solicitação de laudo do local do crime",
+			"question": "O inquérito policial solicitou laudo do local do crime?",
+			"prompt": "Procure no documento qualquer menção à solicitação de laudo pericial ou de requisição de perícia e informe o resultado. Se houve, responda 'sim'. Se não houve, responda 'não'. Responda A: Sim, B: Não"
+		},
+		{
+			"label": "Testemunhos de pessoas além dos policiais",
+			"question": "O inquérito menciona testemunhos de pessoas além dos policiais envolvidos?",
+			"prompt": "Procure no documento por referências a declarações de testemunhas civis ou outras pessoas além dos policiais. Se houve, responda 'sim'. Se não houve, responda 'não'. Responda A: Sim, B: Não"
+		},
+		{
+			"label": "Provas produzidas durante o inquérito",
+			"question": "Quais provas foram produzidas durante o inquérito policial?",
+			"prompt": "Liste todas as provas mencionadas no inquérito policial, indicando aquelas que foram produzidas durante a investigação. Provas podem ser: Prova testemunhal, Prova documental, Prova pericial, Confissão, Prova material, Interrogatório do Acusado e Indícios. Indicar dentre as opções: A: Prova testemunhal, B: Prova documental, C: Prova pericial, D: Confissão, E: Prova material, F: Interrogatório do Acusado, G: Indícios"
+		},
+		{
+			"label": "Atitude suspeita da vítima",
+			"question": "Houve menção de atitude suspeita da vítima? Qual foi a descrição?",
+			"prompt": "Procure no documento por qualquer menção a atitudes suspeitas atribuídas à vítima. Se houve, responda 'sim'. Se não houve, responda 'não'. Responda A: Sim, B: Não"
+		},
+		{
+			"label": "Descrição da atitude suspeita da vítima",
+			"question": "Qual foi a descrição da atitude suspeita da vítima?",
+			"prompt": "Procure no documento por qualquer menção a atitudes suspeitas atribuídas à vítima e descreva o que foi registrado. Atitude suspeita refere-se a comportamentos ou ações que despertam dúvidas ou desconfianças em relação à intenção ou legitimidade de quem os pratica. A atitude suspeita também pode ser a motivação para abordar a vítima na ocasião da abordagem. Responda a descrição utilizada no documento com as mesmas palavras."
+		},
+		{
+			"label": "Pedidos de dilação de prazo",
+			"question": "Quantos pedidos de dilação de prazo foram feitos durante o inquérito?",
+			"prompt": "Procure no documento por menções a pedidos de dilação de prazo feitos durante o inquérito, entendendo 'dilação de prazo' como solicitações formais para estender o período originalmente estabelecido para a conclusão do inquérito policial ou de suas etapas. Identifique e conte quantos desses pedidos foram realizados. Responda em dias totais de prorrogação."
+		},
+		{
+			"label": "Instauração de Inquérito Policial Militar (IPM)",
+			"question": "O inquérito menciona a instauração de Inquérito Policial Militar (IPM)?",
+			"prompt": "Procure no documento por menções à instauração de um Inquérito Policial Militar (IPM), que consiste em um procedimento administrativo investigativo conduzido pelas Forças Armadas ou polícias militares para apurar infrações cometidas por militares. Verifique se há referência à abertura de um IPM e se houve, responda 'sim'. Se não houve, responda 'não'. Responda A: Sim, B: Não"
+		},
+		{
+			"label": "Excludente de ilicitude",
+			"question": "O inquérito apresentou alguma excludente de ilicitude (legítima defesa, estado de necessidade, estrito cumprimento do dever legal e exercício regular do direito)? Qual?",
+			"prompt": "Procure no documento do inquérito por menções a excludentes de ilicitude, que são circunstâncias previstas em lei que afastam a ilicitude de um ato. Especificamente, verifique as seguintes possibilidades: Legítima defesa: quando alguém pratica um ato para repelir injusta agressão, atual ou iminente, contra si ou contra outra pessoa; Estado de necessidade: quando o ato é praticado para salvar-se ou salvar outra pessoa de perigo atual, que não tenha sido causado voluntariamente pelo agente, e que não poderia ser evitado por outro meio; Estrito cumprimento do dever legal: quando a conduta é realizada por imposição de um dever legal, como no caso de um policial cumprindo sua função; Exercício regular do direito: quando o ato é praticado no legítimo exercício de um direito reconhecido pela lei. Verifique se o inquérito menciona qualquer uma dessas circunstâncias e informe qual ou quais foram apresentadas. Responda A: Sim, legítima defesa, B: Sim, estado de necessidade, C: Sim, estrito cumprimento do dever legal, D: Sim, exercício regular do direito, E: Não"
+		},
+		{
+			"label": "Inconsistências nos depoimentos das testemunhas",
+			"question": "O inquérito policial identificou inconsistências nos depoimentos das testemunhas?",
+			"prompt": "Procure no documento do inquérito policial por menções a inconsistências nos depoimentos das testemunhas. Busque identificar contradições, divergências de informações, ou relatos que não sejam compatíveis entre si, indicando se essas discrepâncias foram apontadas pela autoridade responsável ou destacadas durante a investigação. Responda A: Não, não há inconsistências ou contradições nas provas do inquérito policial, B: Não, existem inconsistências, mas o inquérito não sinalizou a contradição nas provas trazidas ao inquérito, C: Sim, existem inconsistência e/ou contradições nas provas que foram destacadas no inquérito."
+		},
+		{
+			"label": "Divulgação midiática dos fatos",
+			"question": "Houve divulgação midiática dos fatos relacionados ao processo?",
+			"prompt": "Procure no documento por menções à divulgação midiática dos fatos relacionados ao processo. Busque termos como 'divulgação na mídia', 'cobertura jornalística', 'notícias sobre o caso', 'repercussão' ou expressões similares que indiquem a repercussão do caso na imprensa. Se houve, responda 'sim'. Se não houve, responda 'não'. Responda A: Sim, B: Não"
+		}
+	],
+	"laudos (iml, medico, necroscopico e pericial)": [
+		{
+			"label": "Qual tipo de laudo pericial aparece no processo?",
+			"question": "Qual tipo de laudo pericial aparece no processo?",
+			"prompt": "Procure no documento do processo por menções a laudos periciais, identificando os tipos de perícia realizadas. Use essa categoria e cite todos os laudos que aparecem: Laudo de balística/armas; Laudo de lesões corporais/exame de corpo de delito; Laudo de necroscópico/cadavérico/tanatológico/post mortem; Laudo de local de crime; Laudo toxicológico; Laudo de vestígios biológicos; Laudo de exame de DNA; Laudo cibernético/informática; Laudo de perícia em veículo/veicular; Laudo pericial residuográfico de pólvora; Reprodução Simulada; Outros \"A: Laudo de balística/armas B: Laudo de lesões corporais/exame de corpo de delito C: Laudo de necroscópico/cadavérico/tanatológico/post mortem D: Laudo de local de crime E: Laudo toxicológico F: Laudo de vestígios biológicos G: Laudo de exame de DNA H: Laudo cibernético/informática I: Laudo de perícia em veículo/veicular J: Laudo pericial residuográfico de pólvora K: Reprodução Simulada L: Outros"
+		},
+		{
+			"label": "Exame realizado com policiais presentes",
+			"question": "O exame de lesões corporais foi realizado na presença de policiais?", 
+			"prompt": "Procure no documento por informações relacionadas à realização do exame de lesões corporais, verificando se há menção específica à presença de policiais durante o procedimento. Busque detalhes que indiquem o contexto da realização do exame, como a necessidade de acompanhamento por questões de segurança, condução do custodiado, ou qualquer outra justificativa mencionada para a presença dos policiais. A presença do policial também pode ser identificada através de frases ou expressões que indiquem a presença de policiais durante o exame de lesões corporais, como 'o policial disse', 'segundo o policial', ou menções similares. Se houve, responda \"sim\". Se não houve, responda \"não\". \"A: Sim B: Não\""
+		},
+		{
+			"label": "Narrativa fornecida apenas pela vítima",
+			"question": "A narrativa registrada no laudo foi fornecida apenas pela vítima?",
+			"prompt": "Procure no laudo pericial por frases ou expressões que indiquem a presença de policiais durante o exame de lesões corporais, como 'o policial disse', 'segundo o policial', ou menções similares. Identifique se há registros de declarações feitas por policiais ou qualquer outro indício textual que comprove sua presença no momento do exame. Se houve, responda \"sim\". Se não houve, responda \"não\". \"A: Sim B: Não\""
+		},
+		{
+			"label": "Exame complementar após 30 dias",
+			"question": "Foi realizado exame complementar após 30 dias do exame inicial?",
+			"prompt": "Procure no documento por menções específicas à realização de um exame complementar que tenha sido efetivamente conduzido após 30 dias do exame inicial. Ignore referências à recomendação de retorno ou necessidade de exame futuro e foque apenas na confirmação de que o exame complementar foi realizado. Se houve, responda \"sim\". Se não houve, responda \"não\". \"A: Sim B: Não\""
+		},
+		{
+			"label": "Lesões de defesa na vítima",
+			"question": "O laudo descreve lesões de defesa na vítima (ferimentos nos braços, antebraço, cotovelo, mãos ou axilas)?",
+			"prompt": "Procure no laudo pericial por descrições de lesões de defesa na vítima, considerando variações de nomenclatura médica, científica ou técnica para se referir às áreas tipicamente associadas à tentativa de proteção, como 'braços', 'antebraços', 'cotovelos', 'mãos', 'axilas', 'membros superiores', ou termos anatômicos equivalentes. Identifique se essas lesões foram mencionadas explicitamente no documento como lesões de defesa ou apenas descritas de forma geral como lesões, e responda utilizando a seguinte categorização: 'Sim, existe lesões de defesa, mas não foram descritas como tal'; 'Sim, existe descrição de lesões de defesa e foi destacado o termo'; 'Não há lesões de defesa'. \"A: Sim, existe lesões de defesa, mas não foram descritas como tal B: Sim, existe descrição de lesões de defesa e foi destacado o termo C: Não há lesões de defesa\""
+		},
+		{
+			"label": "Tiros na cabeça",
+			"question": "O laudo descreve lesões como tiros na cabeça?",
+			"prompt": "Procure no laudo pericial por menções a lesões descritas como tiros na cabeça, considerando variações de nomenclatura médica, científica ou técnica para se referir à região da cabeça, como 'crânio', 'região craniana', 'encefálica', 'região cefálica' ou termos semelhantes. Identifique descrições detalhadas que indiquem ferimentos por projétil nessa área. Se houve, responda \"sim\". Se não houve, responda \"não\". \"A: Sim B: Não\""
+		},
+		{
+			"label": "Tiros de cima para baixo",
+			"question": "O laudo descreve lesões como tiros de cima para baixo?",
+			"prompt": "Procure no laudo pericial por menções a lesões descritas como tiros com trajetória de cima para baixo. Considere variações técnicas ou científicas para descrever esse tipo de trajetória, como 'trajetória descendente', 'disparo com ângulo superior', 'ferimento de entrada superior com saída inferior', ou outras descrições que indiquem uma direção vertical de cima para baixo. Identifique e registre essas informações, caso estejam presentes no documento. Se houve, responda \"sim\". Se não houve, responda \"não\". \"A: Sim B: Não\""
+		},
+		{
+			"label": "Tiros de confirmação",
+			"question": "O laudo descreve lesões como alternância na direção dos tiros (tiros de confirmação)?",
+			"prompt": "Procure no laudo pericial por descrições que indiquem alternância na direção dos tiros, especificamente menções a disparos realizados inicialmente em uma direção, por exemplo, da frente para trás e, posteriormente, de trás para frente ou indicações de disparos que sugerem execução ou confirmação após a vítima já estar caída. Se houve, responda \"sim\". Se não houve, responda \"não\". \"A: Sim B: Não\""
+		},
+		{
+			"label": "Lesões em partes íntimas",
+			"question": "O laudo descreve lesões em partes íntimas como virilha, ânus, pênis, nádegas, vagina?",
+			"prompt": "Procure no laudo pericial por descrições de lesões em partes íntimas da vítima, como virilha, ânus, pênis, nádegas ou vagina. Busque termos técnicos ou científicos que possam ser utilizados para descrever essas regiões anatômicas, como 'região perineal', 'genitália', 'área anal', 'região púbica', ou similares. Identifique e registre qualquer menção a lesões nessas áreas, caso estejam descritas no documento. Se houve, responda \"sim\". Se não houve, responda \"não\". \"A: Sim B: Não\""
+		},
+		{
+			"label": "Zona de tatuagem ou chamuscamento",
+			"question": "O laudo descreve lesões com zona de tatuagem ou zona de chamuscamento?",
+			"prompt": "Procure no laudo pericial por descrições de lesões que mencionem a presença de zona de tatuagem ou zona de chamuscamento, termos que indicam marcas deixadas por disparos de arma de fogo a curta distância. Busque também por sinônimos ou termos técnicos relacionados às feridas, como 'resíduos de pólvora', 'marcas de queimadura ao redor do ferimento', ou 'sinal de disparo à queima-roupa'. Se houve, responda \"sim\". Se não houve, responda \"não\". \"A: Sim B: Não\""
+		},
+		{
+			"label": "Disparos à queima-roupa",
+			"question": "O laudo descreve lesões como disparos encostados ou à queima-roupa?",
+			"prompt": "Procure no laudo pericial por descrições de lesões que indiquem disparos realizados encostados ou à queima-roupa. Busque termos técnicos ou científicos relacionados, como 'disparo encostado', 'ferimento por disparo à queima-roupa', 'ferimento com zona de tatuagem' ou 'lesão com halo de contusão e resíduos de pólvora'. Identifique e registre essas informações, caso estejam descritas no documento. Se houve, responda \"sim\". Se não houve, responda \"não\". \"A: Sim B: Não\""
+		},
+		{
+			"label": "Outras lesões não por arma de fogo",
+			"question": "O laudo descreve outras lesões que não provocadas por arma de fogo?",
+			"prompt": "Procure no laudo pericial por descrições de lesões que não foram causadas por arma de fogo. Busque menções a ferimentos como cortes, lacerações, hematomas, escoriações, fraturas, queimaduras ou outras lesões traumáticas que possam ter sido provocadas por objetos contundentes, perfurantes, cortantes ou outros meios. Identifique e registre essas informações, caso estejam presentes no documento. Se houve, responda \"sim\". Se não houve, responda \"não\". \"A: Sim B: Não\""
+		},
+		{
+			"label": "Lesões de arrastamento",
+			"question": "O laudo descreve lesões típicas de arrastamento?",
+			"prompt": "Procure no laudo pericial por descrições de lesões que sejam típicas de arrastamento. Busque termos como 'escoriações extensas', 'lesões abrasivas', 'raspagem de pele', 'ferimentos lineares ou irregulares', ou outras indicações de atrito prolongado com uma superfície áspera. Se houve, responda \"sim\". Se não houve, responda \"não\". \"A: Sim B: Não\""
+		},
+		{
+			"label": "Lesões no pescoço não por arma de fogo",
+			"question": "O laudo descreve lesões em pescoço não provocadas por arma de fogo?",
+			"prompt": "Procure no laudo pericial por descrições de lesões no pescoço que não foram causadas por arma de fogo. Busque termos como 'lesão cervical', 'trauma no pescoço', 'marcas de pressão', 'estrangulamento', presença de 'sulcos, 'hematomas', 'lacerações', ou outros tipos de ferimentos provocados por impacto, pressão, objetos cortantes ou contundentes. Se houve, responda \"sim\". Se não houve, responda \"não\". \"A: Sim B: Não\""
+		},
+		{
+			"label": "Lesões nos pulsos ou tornozelos",
+			"question": "O laudo descreve lesões nos pulsos ou tornozelos não provocadas por arma de fogo?",
+			"prompt": "Procure no laudo pericial por descrições de lesões localizadas nos pulsos ou tornozelos que não foram causadas por arma de fogo. Busque termos como 'sulcos', 'hematomas', 'marcas de pressão', 'lacerações', 'escoriações', 'ferimentos contusos', ou outras indicações de lesões típicas dessas regiões, considerando causas como amarras, impacto ou atrito. Se houve, responda \"sim\". Se não houve, responda \"não\". \"A: Sim B: Não\""
+		},
+		{
+			"label": "Vestimentas da vítima",
+			"question": "O laudo menciona as vestimentas da vítima ao chegar no instituto de perícia?",
+			"prompt": "Procure no laudo pericial por menções às vestimentas da vítima ao chegar no instituto de perícia. Busque descrições que indiquem se a vítima estava vestida ou despida, utilizando termos como 'roupas da vítima', 'vestimentas apresentadas', 'trajava', 'despida', ou outras indicações. Responda de acordo com a seguinte categorização: \"Sim, a vítima estava vestida\", \"Sim, a vítima estava despida\", \"Não descreve as vestimentas\" \"A: Sim, a vítima estava vestida B: Sim, a vítima estada despida C: Não descreve as vestimentas\""
+		},
+		{
+			"label": "Desenhos detalhados com marcação dos tiros",
+			"question": "O laudo inclui desenhos detalhados com as marcações dos tiros no corpo da vítima?",
+			"prompt": "Procure no laudo pericial por desenhos detalhados que marquem os locais dos tiros no corpo da vítima. Se houve, responda \"sim\". Se não houve, responda \"não\". \"A: Sim B: Não\""
+		},
+		{
+			"label": "Perícia da arma da vítima",
+			"question": "A perícia da arma da vítima identificou indícios de disparo?",
+			"prompt": "Procure no documento da perícia por informações relacionadas à análise da arma da vítima, buscando identificar se foram encontrados indícios de disparo. Busque termos como 'resíduos de pólvora', 'marcas de uso', 'disparo recente', 'recenticidade do disparo' ou conclusões do exame pericial sobre a arma. Responda de acordo com a seguinte categorização: \"Sim, havia indícios de disparos\", \"Não, não havia indícios de disparos\", \"Não foi realizado exame.\" ou \"Não foi achada arma com a vítima para ser periciada\". \"A: Sim, havia indícios de disparos B: Não, não havia indícios de disparos C: Não foi realizado exame D: Não foi achada arma com a vítima para ser periciada\""
+		},
+		{
+			"label": "Exame residuográfico nos policiais",
+			"question": "Foi realizado exame residuográfico nos policiais envolvidos na ocorrência?",
+			"prompt": "Procure no documento por informações sobre a realização de exame residuográfico nos policiais envolvidos na ocorrência. Busque termos como 'exame residuográfico', 'teste de resíduos de pólvora', ou 'análise de disparo' para determinar se o exame foi realizado e se identificou indícios de disparos. Responda de acordo com a seguinte categorização: \"Sim, havia indícios de disparos\", \"Não, não havia indícios de disparos\", \"Não foi realizado exame.\" \"A: Sim, havia indícios de disparos B: Não, não havia indícios de disparos C: Não foi realizado exame\""
+		},
+		{
+			"label": "Resquício de pólvora na mão das vítimas",
+			"question": "Havia resquício de pólvora na mão das vítimas?",
+			"prompt": "Procure no documento por informações sobre a realização de exame residuográfico nas vítimas da ocorrência. Busque termos como 'exame residuográfico', 'teste de resíduos de pólvora', ou 'análise de disparo' para determinar se o exame foi realizado e se identificou indícios de disparos. Responda de acordo com a seguinte categorização: \"Sim, havia indícios de disparos\", \"Não, não havia indícios de disparos\", \"Não foi realizado exame.\" \"A: Sim, havia resquício de pólvora B: Não, não havia resquício de pólvora C: Não foi realizado exame\""
+		},
+		{
+			"label": "Menção da cor ou raça da vítima",
+			"question": "O laudo menciona a cor ou raça da vítima?",
+			"prompt": "Procure no laudo pericial por menções à cor ou raça da vítima, considerando termos comuns e técnicos. Busque descrições como 'caucasiana' ou 'leucodérmica' para branca, 'mestiça' ou 'faiodérmica' para parda, 'negra' ou 'melanodérmica' para preta, 'amarela' ou 'oriental' para amarela, e 'india' ou 'ameríndia' para indígena. Responda de acordo com a seguinte categorização: \"Sim, Branca\", \"Sim, Parda\", \"Sim, Preta\", \"Sim, Amarela\", \"Sim, Indígena\", \"Laudo não menciona raça/cor.\" \"A: Sim, Branca B: Sim, Parda C: Sim, Preta D: Sim, Amarela E: Sim, Indígena F: Laudo não menciona raça/cor\""
+		},
+		{
+			"label": "Local onde o corpo foi encontrado",
+			"question": "O local onde o corpo foi encontrado é descrito no laudo?",
+			"prompt": "Procure no laudo pericial por informações sobre o local onde o corpo foi encontrado. Busque termos como 'local da ocorrência', 'ambiente hospitalar', 'prestação de socorro', ou outras indicações que mencionem o ambiente. Responda de acordo com a seguinte categorização: \"Sim, no local da ocorrência\", \"Sim, em ambiente hospitalar\", \"Sim, em ambiente policial\", \"Não menciona.\" \"A: Sim, no local da ocorrência B: Sim, em ambiente hospitalar C: Sim, em ambiente policial D: Não menciona\""
+		},
+		{
+			"label": "Descrição de tatuagens",
+			"question": "Houve descrição de tatuagens no corpo da vítima?",
+			"prompt": "Procure no laudo pericial por descrições de tatuagens no corpo da vítima. Busque termos como 'tatuagem', 'marcas corporais', 'desenhos na pele', ou outras expressões que indiquem a presença de tatuagens. Se houve, responda \"sim\". Se não houve, responda \"não\". \"A: Sim B: Não\""
+		}
+	],
+	"relatórios (investigacao e final)": [
+		{
+			"label": "Pericial de armas",
+			"question": "A arma dos policiais envolvidos foi periciada?",
+			"prompt": "Procure no documento por informações sobre a realização de perícia nas armas dos policiais envolvidos. Busque termos como 'perícia na arma', 'análise balística', 'exame da arma de fogo', ou outras expressões relacionadas. Se houve, responda 'sim'. Se não houve, responda 'não'."
+		},
+		{
+			"label": "Local movimentado",
+			"question": "A ocorrência aconteceu em uma área com grande movimentação de pessoas?",
+			"prompt": "Procure no documento informações sobre o local da ocorrência, buscando menções a áreas com grande movimentação de pessoas, como ruas movimentadas, praças, centros comerciais, ou locais públicos de alta circulação. Busque termos como 'grande fluxo de pessoas', 'local público movimentado', ou descrições que indiquem o contexto populacional. Se houve, responda \"sim\". Se não houve, responda \"não\". \"A: Sim B: Não\""
+		},
+		{
+			"label": "Perseguição",
+			"question": "A ocorrência ocorreu após perseguição ou foi imediato?", 
+			"prompt": "Procure no documento informações que indiquem se a ocorrência foi resultado de uma perseguição ou se aconteceu de forma imediata, sem prévia movimentação ou acompanhamento. Busque termos como 'perseguição', 'acompanhamento tático', 'ocorrência imediata', ou descrições que expliquem o contexto temporal da ação. Responda de acordo com a seguinte categorização: \"Aconteceu após perseguição\" ou \"Aconteceu de imediato\" \"A: Após perseguição B: De imediato\""
+		},
+		{
+			"label": "Quantidade de disparos dos policiais",
+			"question": "Quantos disparos foram efetuados pelos policiais?",
+			"prompt": "Procure no documento informações sobre a quantidade total de disparos efetuados pelos policiais envolvidos na ocorrência. Busque números específicos mencionados nos relatos ou contagem de cápsulas encontradas. Me responda como número."
+		},
+		{
+			"label": "Exame residuográfico nos policiais",
+			"question": "Houve realização de exame residuográfico nos policiais?",
+			"prompt": "Procure no documento por informações sobre a realização de exame residuográfico nos policiais envolvidos na ocorrência. Busque termos como 'exame residuográfico', 'teste de resíduos de pólvora', ou 'análise de disparo' para determinar se o exame foi realizado e se identificou indícios de disparos. Responda de acordo com a seguinte categorização: \"Sim, havia indícios de disparos\", \"Não, não havia indícios de disparos\", \"Não foi realizado exame.\" \"A: Sim, havia indícios de disparos B: Não, não havia indícios de disparos C: Não foi realizado exame\""
+		},
+		{
+			"label": "Local histórico de ocorrências",
+			"question": "Existe histórico de outras ocorrências policiais no local?",
+			"prompt": "Procure no documento informações sobre a existência de histórico de outras ocorrências policiais no local. Busque termos como 'histórico de ocorrências', 'registros prévios', 'ocorrências anteriores', ou descrições que indiquem eventos policiais anteriores na mesma área. Se houve, responda \"sim\". Se não houve, responda \"não\". \"A: Sim B: Não\""
+		},
+		{
+			"label": "Menção de câmeras",
+			"question": "O relatório menciona câmeras de segurança ou vídeos?",
+			"prompt": "Procure no relatório por menções a câmeras de segurança ou vídeos relacionados à ocorrência. Busque termos como 'câmeras de vigilância', 'imagens de vídeo', 'gravações', ou descrições similares que indiquem a existência ou análise de registros audiovisuais. Se houve, responda \"sim\". Se não houve, responda \"não\". \"A: Sim B: Não\""
+		},
+		{
+			"label": "Testemunhas no local",
+			"question": "O relatório menciona testemunhas no local do crime?",
+			"prompt": "Procure no documento por referências a declarações de testemunhas civis ou outras pessoas além dos policiais no local do crime. Se houve, responda \"sim\". Se não houve, responda \"não\". \"A: Sim B: Não\""
+		},
+		{
+			"label": "Comportamento agressivo da vítima",
+			"question": "O comportamento da vítima foi descrito como agressivo ou hostil em relação aos policiais?",
+			"prompt": "Procure no documento por descrições do comportamento da vítima em relação aos policiais, buscando termos como 'agressivo', 'hostil', 'resistência', 'ameaça', ou expressões similares que indiquem ações conflituosas ou desafiadoras. Se houve, responda \"sim\". Se não houve, responda \"não\". \"A: Sim B: Não\""
+		},
+		{
+			"label": "Local mal iluminado",
+			"question": "O local do fato foi descrito como mal iluminado ou com infraestrutura precária?",
+			"prompt": "Procure no documento por descrições do local do fato, buscando termos como 'mal iluminado', 'pouca iluminação', 'infraestrutura precária', 'condições inadequadas', ou expressões similares que indiquem tais características. Se houve, responda \"sim\". Se não houve, responda \"não\". \"A: Sim B: Não\""
+		},
+		{
+			"label": "Excludente de ilicitude",
+			"question": "Os policiais alegaram excludente de ilicitude no relatório?",
+			"prompt": "Procure no documento por menções a excludentes de ilicitude, que são circunstâncias previstas em lei que afastam a ilicitude de um ato. Especificamente, verifique as seguintes possibilidades: Legítima defesa: quando alguém pratica um ato para repelir injusta agressão, atual ou iminente, contra si ou contra outra pessoa; Estado de necessidade: quando o ato é praticado para salvar-se ou salvar outra pessoa de perigo atual, que não tenha sido causado voluntariamente pelo agente, e que não poderia ser evitado por outro meio; Estrito cumprimento do dever legal: quando a conduta é realizada por imposição de um dever legal, como no caso de um policial cumprindo sua função; Exercício regular do direito: quando o ato é praticado no legítimo exercício de um direito reconhecido pela lei. Verifique se o relatório policial menciona qualquer uma dessas circunstâncias e informe qual ou quais foram apresentadas. \"A: Sim, legítima defesa B: Sim, estado de necessidade C: Sim, estrito cumprimento do dever legal D: Sim, execício regular do direito E: Não\""
+		},
+		{
+			"label": "Vítima rendida",
+			"question": "Houve menção sobre a vítima ter sido rendida antes de ser morta?",
+			"prompt": "Procure no documento por menções a informações sobre a vítima ter sido rendida antes de ser morta. Busque termos como 'rendição', 'subjugada', 'neutralizada', 'imobilizada', ou expressões que indiquem que a vítima foi contida antes de ser morta. Se houve, responda \"sim\". Se não houve, responda \"não\". \"A: Sim B: Não\""
+		},
+		{
+			"label": "Provas produzidas",
+			"question": "Quais provas foram produzidas durante o inquérito policial?",
+			"prompt": "Liste todas as provas mencionadas no relatório policial como produzidas no inquérito policial, indicando aquelas que foram produzidas durante a investigação. Provas podem ser: Prova testemunhal, Prova documental, Prova pericial, Confissão, Prova material, Interrogatório do Acusado e Indícios \"Indicar dentre as opções: A: Prova testemunhal B: Prova documental C: Prova pericial D: Confissão E: Prova material F: Interrogatório do Acusado G: Indícios\""
+		}
+	],
+	"manifestacao do mp": [
+		{
+			"label": "A versão dos policiais",
+			"question": "A versão dos policiais foi corroborada por outros elementos externos de prova?",
+			"prompt": "Procure no documento por informações que indiquem se a versão apresentada pelos policiais foi corroborada por outros elementos de prova. Busque termos como 'testemunhas', 'documentos', 'laudos periciais', 'confissões', 'objetos materiais', 'interrogatório', ou 'indícios', e responda utilizando a seguinte categorização: A: Prova testemunhal, B: Prova documental, C: Prova pericial, D: Confissão, E: Prova material, F: Interrogatório do Acusado, G: Indícios"
+		},
+		{
+			"label": "Pedido de arquivamento",
+			"question": "Houve pedido de arquivamento pelo Ministério Público?",
+			"prompt": "Procure no documento por informações sobre um pedido de arquivamento feito pelo Ministério Público. Busque termos como 'pedido de arquivamento', 'solicitação de arquivamento', ou expressões semelhantes. Se houve, responda \"sim\". Se não houve, responda \"não\". \"A: Sim B: Não\""
+		},
+		{
+			"label": "Denúncia oferecida",
+			"question": "Houve denúncia oferecida pelo Ministério Público?", 
+			"prompt": "Procure no documento por informações sobre a apresentação de denúncia pelo Ministério Público. Busque termos como 'denúncia oferecida', 'oferecimento de denúncia', ou expressões que indiquem a formalização de uma acusação pelo Ministério Público. Se houve, responda \"sim\". Se não houve, responda \"não\". \"A: Sim B: Não\""
+		},
+		{
+			"label": "Diligências adicionais",
+			"question": "O Ministério Público solicitou diligências adicionais?",
+			"prompt": "Procure no documento por informações sobre solicitações do Ministério Público referentes a diligências adicionais direcionadas ao delegado ou à autoridade policial para aprofundar a investigação do caso. Busque termos como 'solicitação de diligências', 'requisição de novas diligências', 'pedido ao delegado', 'novas investigações' ou expressões similares que indiquem tais solicitações. Se houve, responda \"sim\". Se não houve, responda \"não\". \"A: Sim B: Não\""
+		},
+		{
+			"label": "Fundamento da manifestação",
+			"question": "Qual foi o fundamento apresentado pelo Ministério Público para a manifestação?",
+			"prompt": "Procure no documento por informações sobre o fundamento apresentado pelo Ministério Público em sua manifestação. Busque termos como 'fundamento', 'justificativa', 'razão', ou 'base legal' relacionados à manifestação, considerando as seguintes categorias: \"Para ciência\", \"Pedido de arquivamento\", \"Pedido de diligências/investigações\", \"Pedido de prisão\", \"Alegações finais\", \"Manifestação de mérito\". \"A: Para ciência B: Pedido de arquivamento C: Pedido de diligências/investigações D: Pedido de prisão E: Alegações finais F: Manifestação de mérito\""
+		}
+	],
+	"decisao e sentenca": [
+		{
+			"label": "Apensamento de outros processos",
+			"question": "O Ministério Público recomendou apensamento de outros processos?",
+			"prompt": "Procure no documento por informações sobre recomendação do Ministério Público para o apensamento de outros processos. Busque termos como 'recomendação de apensamento', 'juntada de processos', 'conexão de processos', ou expressões similares. Se houve, responda \"sim\". Se não houve, responda \"não\". \"A: Sim B: Não\""
+		},
+		{
+			"label": "Prisão dos policiais", 
+			"question": "Houve decretação de prisão para algum dos policiais envolvidos?",
+			"prompt": "Procure no documento por informações sobre a decretação de prisão para algum dos policiais envolvidos. Busque termos como 'decretação de prisão', 'prisão preventiva', 'prisão temporária', ou outras expressões similares relacionadas à prisão de policiais envolvidos na ocorrência. Se houve, responda \"sim\". Se não houve, responda \"não\". \"A: Sim B: Não\""
+		},
+		{
+			"label": "Sentença primeira fase",
+			"question": "O processo teve sentença da primeira fase do júri?",
+			"prompt": "Procure no documento por informações relacionadas à sentença da primeira fase do júri, buscando termos como 'decisão de pronúncia', 'absolvição sumária', 'desclassificação', ou 'impronúncia'. Responda de acordo com a seguinte categorização: \"Sim, decisão de pronúncia\", \"Sim, decisão de absolvição sumária\", \"Sim, decisão de desclassificação\", \"Sim, decisão de impronúncia\", \"Não\" \"A: Sim, decisão de pronúncia B: Sim, decisão de absolvição sumária C: Sim, decisão de desclassificação D: Sim, decisão de impronúncia E: Não\""
+		},
+		{
+			"label": "Sentença final",
+			"question": "O processo teve sentença final? Qual foi a decisão?",
+			"prompt": "Procure no documento por informações relacionadas à sentença final do processo, buscando termos como 'sentença de absolvição', 'sentença condenatória', ou indicações de que o julgamento foi concluído. Responda de acordo com a seguinte categorização: \"Sim, sentença de absolvição\", \"Sim, sentença condenatória\", \"Não.\" \"A: Sim, sentença de absolvição B: Sim, sentença condenatória C: Não\""
+		},
+		{
+			"label": "Excludente de ilicitude na sentença",
+			"question": "A sentença menciona alguma excludente de ilicitude?",
+			"prompt": "Procure no documento da sentença por menções a excludentes de ilicitude, que são circunstâncias previstas em lei que afastam a ilicitude de um ato. Especificamente, verifique as seguintes possibilidades: Legítima defesa: quando alguém pratica um ato para repelir injusta agressão, atual ou iminente, contra si ou contra outra pessoa; Estado de necessidade: quando o ato é praticado para salvar-se ou salvar outra pessoa de perigo atual, que não tenha sido causado voluntariamente pelo agente, e que não poderia ser evitado por outro meio; Estrito cumprimento do dever legal: quando a conduta é realizada por imposição de um dever legal, como no caso de um policial cumprindo sua função; Exercício regular do direito: quando o ato é praticado no legítimo exercício de um direito reconhecido pela lei. Verifique se a sentença menciona qualquer uma dessas circunstâncias e informe qual ou quais foram apresentadas. \"A: Sim, legítima defesa B: Sim, estado de necessidade C: Sim, estrito cumprimento do dever legal D: Sim, execício regular do direito E: Não\""
+		},
+		{
+			"label": "Decisão sobre arquivamento",
+			"question": "Houve decisão judicial sobre pedido de arquivamento?",
+			"prompt": "Procure no documento por informações relacionadas a uma decisão judicial sobre pedido de arquivamento. Busque termos como 'acolheu o pedido de arquivamento', 'negou o pedido de arquivamento', ou outras expressões que indiquem a decisão judicial sobre o pedido. Responda de acordo com a seguinte categorização: \"Sim, acolheu o pedido de arquivamento\", \"Sim, negou o pedido de arquivamento\" ou \"Não houve pedido de arquivamento.\" \"A: Sim, acolheu o pedido de arquivamento B: Sim, negou o pedido de arquivamento C: Não houve pedido de arquivamento\""
+		},
+		{
+			"label": "Fundamento do arquivamento",
+			"question": "Qual foi o fundamento mencionado na sentença ou na decisão para o arquivamento?",
+			"prompt": "Procure no documento por informações relacionadas ao fundamento mencionado na sentença ou decisão para o arquivamento. Aqui está uma explicação detalhada de cada categoria relacionada ao fundamento de arquivamento: Ausência de justa causa = Não existem elementos mínimos que justifiquem a continuidade da ação penal, como provas suficientes para instaurar ou manter o processo. Atipicidade da conduta = A conduta praticada não se enquadra em nenhum tipo penal previsto na legislação, ou seja, não é considerada crime. Excludente de ilicitude = Circunstâncias que afastam a ilicitude do ato praticado, como legítima defesa, estado de necessidade, estrito cumprimento do dever legal ou exercício regular de um direito. Excludente de culpabilidade = O autor do fato não pode ser responsabilizado devido à ausência de elementos que caracterizem a culpabilidade, como inimputabilidade, erro de proibição inevitável ou coação irresistível. Provas insuficientes = Não há provas suficientes para formar uma acusação ou para sustentar a continuidade do processo judicial. Ausência de elemento subjetivo do tipo penal (dolo ou culpa) = Faltam elementos como dolo (intenção) ou culpa (negligência, imprudência ou imperícia) para caracterizar a infração penal. Extinção da punibilidade = O direito de punir do Estado foi extinto por razões legais, como prescrição, decadência, anistia, perdão judicial, morte do agente, entre outros. Ausência de tipicidade material = Embora a conduta seja formalmente típica (descrita na lei), ela não causou lesão ou perigo relevante ao bem jurídico protegido, sendo considerada irrelevante sob o ponto de vista material. Princípio da oportunidade ou conveniência/ Determinação do Ministério Público = O Ministério Público opta por não prosseguir com o caso por razões de oportunidade ou conveniência, com base na discricionariedade prevista em lei, mesmo que haja elementos mínimos. Acordo de Não Persecução Penal (ANPP) = O processo é arquivado em razão de um acordo celebrado entre o Ministério Público e o acusado, conforme previsto no artigo 28-A do Código de Processo Penal. Não houve arquivamento = O caso não foi arquivado e segue em trâmite ou aguardando outra decisão. \"A: Ausência de justa causa B: Atipicidade da conduta C: Excludente de ilicitude D:Excludente de culpabilidade E: Prova insuficientes F: Ausência de elemento subjetivo do tipo penal (dolo ou culpa) G: Extinção da punibilidade H: Ausência de tipicidade material I: Princípio da oportunidade ou conveniência/ Determinação do Ministério Pública J: Acordo de Não Persecução Penal (ANPP) K: Não houve arquivamento\""
+		},
+		{
+			"label": "Inconsistências nos depoimentos",
+			"question": "Houve menção a inconsistências nos depoimentos das testemunhas na decisão judicial?",
+			"prompt": "Procure na sentença por menções a inconsistências nos depoimentos das testemunhas. Busque identificar contradições, divergências de informações, ou relatos que não sejam compatíveis entre si, indicando se essas discrepâncias foram apontadas pela autoridade responsável ou destacadas durante o processo. \"A: Não, não há inconsistências ou contradições nas provas do processo. B: Não, existem inconsistências, mas o inquérito não sinalizou a contradição nas provas trazidas ao processo. C: Sim, existem inconsistência e/ou contradições nas provas que foram destacadas no processo.\""
+		},
+		{
+			"label": "Características da vítima na sentença",
+			"question": "A sentença utiliza características da vítima como argumento na decisão?",
+			"prompt": "Procure na sentença por menções a características da vítima utilizadas como argumento na decisão. Busque termos que descrevam aspectos como 'idade', 'gênero', 'raça', 'ocupação', 'histórico criminal', 'conduta', ou outros atributos destacados na sentença. Liste as palavras ou expressões específicas utilizadas e descreva como foram empregadas na argumentação judicial"
+		},
+		{
+			"label": "Apensamento ao processo principal",
+			"question": "Houve recomendação ou execução de apensamento ao processo principal?",
+			"prompt": "Procure no documento por informações relacionadas a recomendação ou execução de apensamento ao processo principal. Busque termos como 'recomendação de apensamento', 'juntada ao processo principal', 'determinação de apensamento', ou expressões similares que indiquem essa medida. Se houve, responda \"sim\". Se não houve, responda \"não\". \"A: Sim B: Não\""
+		},
+		{
+			"label": "Divulgação midiática",
+			"question": "Houve divulgação midiática dos fatos relacionados ao processo?",
+			"prompt": "Procure no documento por menções à divulgação midiática dos fatos relacionados ao processo. Busque termos como 'divulgação na mídia', 'cobertura jornalística', 'notícias sobre o caso', 'repercussão' ou expressões similares que indiquem a repercussão do caso na imprensa. Se houve, responda \"sim\". Se não houve, responda \"não\". \"A: Sim B: Não\""
+		}
+	]
+}   
